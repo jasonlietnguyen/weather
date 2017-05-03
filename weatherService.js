@@ -20,7 +20,6 @@ function WeatherService() {
 	}
 
 	this.getWeather = function getWeather(cityData) {
-    debugger
 		var urlBase = 'http://api.openweathermap.org/data/2.5/';
 		var appId = 'bd82255fd0a21fa1238699b9eda2ee35';
 		var url = urlBase + 'weather?appid=' + appId + '&units=imperial&zip=' + cityData;
